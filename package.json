@@ -1,0 +1,23 @@
+{
+  "name": "homebridge-fritz",
+  "version": "0.0.1",
+  "description": "plugin for homebridge: https://github.com/nfarina/homebridgei to control Fritz!Dect components",
+  "license": "ISC",
+  "keywords": [
+    "homebridge-plugin", "fritz", "fritz!dect", "smartfritz"
+  ],
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "author": {
+    "name": "Stefan Kuper"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/planetk/homebridge-fritz.git"
+  },
+  "dependencies": {
+    "smartfritz-promise": "^0.5.0"
+  }
+}
